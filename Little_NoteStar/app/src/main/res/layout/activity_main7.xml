@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul_verde"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="60dp"
+        app:cardElevation="8dp"
+        android:background="@color/white"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/le2"
+                android:text="E N C U E S T A :"
+                android:textColor="@color/azulito"
+                android:textSize="34sp"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:text="¿Cuál es tu método de estudio principal?"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cb_lectura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lectura repetitiva" />
+
+            <CheckBox
+                android:id="@+id/cb_resumenes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Resúmenes" />
+
+            <CheckBox
+                android:id="@+id/cb_mapas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mapas mentales" />
+
+            <CheckBox
+                android:id="@+id/cb_ninguno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ninguno" />
+
+            <CheckBox
+                android:id="@+id/cb_otro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Otro" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingBottom="4dp"
+                android:text="¿Cuántas horas sueles dormir por noche?"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/cb_menos6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menos de 6" />
+
+            <CheckBox
+                android:id="@+id/cb_6_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6-7" />
+
+            <CheckBox
+                android:id="@+id/cb_7_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7-8" />
+
+            <CheckBox
+                android:id="@+id/cb_mas8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Más de 8" />
+
+            <Button
+                android:id="@+id/btn_siguiente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/verde_agua"
+                android:text="Siguiente"
+                android:textColor="#0B0B0B" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>

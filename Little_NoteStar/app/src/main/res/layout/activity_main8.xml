@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azulito">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Con qué comenzamos hoy?"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"/>
+
+    <!-- Botón Nebulario -->
+
+    <!-- Botón Meteoritos -->
+
+    <!-- Botón Misiones -->
+
+    <!-- Botón Diversión -->
+
+    <!-- Botón Consejos Cósmicos -->
+    <Button
+        android:id="@+id/btn_nebulario"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titulo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/boton_redondo"
+        android:text="Nebulario"
+        android:textColor="@color/negro"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <Button
+        android:id="@+id/btn_meteoritos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titulo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/boton_redondo"
+        android:text="Meteoritos\npendientes"
+        android:textColor="@color/negro"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <Button
+        android:id="@+id/btn_misiones"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_nebulario"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/boton_redondo"
+        android:text="Misiones\nEspaciales"
+        android:textColor="@color/negro"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <Button
+        android:id="@+id/btn_diversion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_meteoritos"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/boton_redondo"
+        android:text="Diversión\ncósmica"
+        android:textColor="@color/negro"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <Button
+        android:id="@+id/btn_consejos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_misiones"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:background="@drawable/boton_redondo"
+        android:text="Consejos cósmicos"
+        android:textColor="@color/negro"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="589dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

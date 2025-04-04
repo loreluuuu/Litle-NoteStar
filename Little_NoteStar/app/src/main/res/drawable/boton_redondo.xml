@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+
+        <!-- Color de fondo -->
+        <solid android:color="@color/white"/>
+
+        <!-- Bordes redondeados -->
+        <corners android:radius="75dp"/>
+
+        <!-- Borde del botón (opcional) -->
+        <stroke android:width="4dp" android:color="@color/negro"/>
+    </shape>
+
+</selector>
